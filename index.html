@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+<style>
+    * { font-size: 17px ;} 
+    body { background-image: linear-gradient(120deg, #d4fc79 0%, #96e6a1 100%);}
+    textarea { resize: None ;}
+    form.center {text-align: center };
+    </style>
+    
+    <title> Customize your Own Favourite Tshirt </title>
+</head>
+
+<body>
+    <image
+        src="https://www.pinkblueindia.com/pub/media/catalog/product/cache/2df8770d5eeb0953b5965ef2dc444e9d/m/a/matching-family-holi-tshirts-set.jpg"
+        width="300"> <br><br>
+
+        <b style="font-size: 20pt;"><i> CUSTOMISE YOUR OWN FAVOURITE TSHIRT <i></b><br><br>
+
+        <form>
+
+            <label for="name"> Enter your Name: - </label>
+            <input type="text" id="name">
+            <br>
+            <br>
+            <label for="email">EMAIL:-</label>
+            <input type="email" name="email" id="email"><br><br>
+
+            <label for="tel">Contact:-</label>
+            <input type="tel" name="tel" id="tel" maxlength="10" minlength="6"><br><br>
+
+            <label for="Address"> Enter your Shipping Address : - </label>
+            <textarea id="Address"></textarea>
+            <br>
+            <br>
+
+            <label for="tagline"> Enter Tagline:- </label>
+            <input type="text" id="tagline">
+            <br>
+            <br>
+
+            <label for="color"> select color:-</label>
+            <input type="color" id="color">
+            <br>
+            <br>
+
+            <label for="size"> Choose The Size : -</label>
+            <select name="size" id="size">
+                <option value="Small">S</option>
+                <option value="Medium" selected>M</option>
+                <option value="Large">L</option>
+                <option value="Extra Large">XL</option>
+            </select>
+            <br>
+            <br>
+
+            <label for="quantity"> Enter quantity:- </label>
+            <input type="number" id="quantity" min="1" max="9">
+            <br>
+            <br>
+
+            <label for="deldate"> Enter Date to be Delivery:- </label>
+            <input type="Date" id="deldate">
+            <br>
+            <br>
+
+            <b>Select Your Payment Option:-</b><br><br>
+
+            <input type="radio" id="cod" name="payment" value="cod">
+            <label for="cod" title="cash on delivery">COD</label><br><br>
+    
+            <input type="radio" id="upi" name="payment" value="upi">
+            <label for="upi">UPI</label><br><br>
+    
+            <input type="radio" id="net" name="payment" value="net">
+            <label for="net">Net Banking</label><br><br>
+        </fieldset><br>
+            <input type="submit" value="place Order">
+            <input type="reset" value="reset">
+            <br>
+            <br>
+
+            <strong>please make sure you fill all the details and get your tshirts customized , happy shopping
+                guys</strong>
+        </form>
+
+</body>
+
+</html>
